@@ -1,17 +1,26 @@
 {
   "name": "expo-network-security-config",
   "version": "1.0.0",
+  "description": "This Expo config plugin allows you to include a network security config within your app.",
+  "repository": "https://github.com/pchalupa/expo-network-security-config",
+  "bugs": {
+    "url": "https://github.com/pchalupa/expo-network-security-config/issues"
+  },
+  "author": "pchalupa <chalupa.petr93@gmail.com> (https://github.com/pchalupa)",
+  "license": "MIT",
+  "homepage": "https://github.com/pchalupa/expo-network-security-config#readme.md",
   "main": "index.js",
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-network-security-config"
+  ],
   "files": [
     "index.js"
   ],
   "scripts": {
     "lint": "eslint index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@eslint/js": "^9.6.0",
     "eslint": "^9.6.0",
