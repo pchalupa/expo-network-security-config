@@ -29,6 +29,6 @@
     "prettier": "^3.3.2"
   },
   "peerDependencies": {
-    "expo": "^50.0.0"
+    "expo": ">=50.0.0"
   }
 }
