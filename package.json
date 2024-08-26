@@ -1,6 +1,6 @@
 {
   "name": "expo-network-security-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Expo config plugin allows you to include a network security config within your app.",
   "repository": "https://github.com/pchalupa/expo-network-security-config",
   "bugs": {
