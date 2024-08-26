@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - directory: '/'
+    package-ecosystem: 'github-actions'
+    schedule:
+      interval: 'weekly'
+    open-pull-requests-limit: 5
+
+  - directory: '/'
+    package-ecosystem: 'npm'
+    schedule:
+      interval: 'weekly'
+    open-pull-requests-limit: 5

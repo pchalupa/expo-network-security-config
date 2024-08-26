@@ -19,7 +19,8 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint",
+    "format:check": "prettier --check ."
   },
   "devDependencies": {
     "@eslint/js": "^9.6.0",
