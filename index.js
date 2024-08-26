@@ -23,8 +23,8 @@ module.exports = function withExpoNetworkSecurityConfig(config, { enable, networ
       const { projectRoot } = config.modRequest;
       const resourcePath = await getResourceFolderAsync(projectRoot);
 
-      mkdir(join(resourcePath, '/xml'), { recursive: true });
-      copyFile(
+      await mkdir(join(resourcePath, '/xml'), { recursive: true });
+      await copyFile(
         join(projectRoot, networkSecurityConfig),
         join(resourcePath, '/xml/network_security_config.xml'),
       );
