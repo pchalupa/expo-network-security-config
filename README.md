@@ -11,21 +11,21 @@ This is helpful in cases when you need to allow HTTPS interception for tools lik
 
 ## Usage
 
-```js
+```json
 {
-  plugins: [
+  "plugins": [
     [
-      'expo-network-security-config',
+      "expo-network-security-config",
       {
-        networkSecurityConfig: './assets/configs/network_security_config.xml',
-        enable: true,
-      },
-    ],
-  ];
+        "networkSecurityConfig": "./assets/configs/network_security_config.xml",
+        "enable": true
+      }
+    ]
+  ]
 }
 ```
 
-## Example Config
+### Example Config
 
 The following example allows [Proxyman](https://proxyman.io/) to intercept HTTP/HTTPS requests by trusting user-added CAs:
 
