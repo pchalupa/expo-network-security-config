@@ -10,7 +10,6 @@ const { join } = require('path');
  * @returns {import('@expo/config-types').ExpoConfig} config
  */
 module.exports = function withExpoNetworkSecurityConfig(config, { enable, networkSecurityConfig }) {
-  // Early return switch
   if (!enable) return config;
 
   const { getMainApplicationOrThrow } = AndroidConfig.Manifest;
