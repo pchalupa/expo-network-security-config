@@ -25,6 +25,29 @@ This is helpful in cases when you need to allow HTTPS interception for tools lik
 }
 ```
 
+## Example Config
+
+The following example allows [Proxyman](https://proxyman.io/) to intercept HTTP/HTTPS requests by trusting user-added CAs:
+
+```xml
+<network-security-config>
+  <debug-overrides>
+    <trust-anchors>
+      <!-- Trust user added CAs while debuggable only -->
+      <certificates src="user" />
+      <certificates src="system" />
+    </trust-anchors>
+  </debug-overrides>
+
+  <base-config cleartextTrafficPermitted="true">
+    <trust-anchors>
+      <certificates src="system" />
+      <certificates src="user" />
+    </trust-anchors>
+  </base-config>
+</network-security-config>
+```
+
 ## API
 
 | Parameter             | Description                         |
