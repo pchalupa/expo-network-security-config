@@ -20,7 +20,8 @@
   ],
   "scripts": {
     "lint": "eslint",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "release": "release-it"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -29,6 +30,7 @@
     "expo": ">=50.0.0",
     "globals": "^17.0.0",
     "prettier": "^3.3.2",
+    "release-it": "^20.0.0",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
