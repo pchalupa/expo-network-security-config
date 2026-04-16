@@ -9,14 +9,14 @@
   "author": "pchalupa <chalupa.petr93@gmail.com> (https://github.com/pchalupa)",
   "license": "MIT",
   "homepage": "https://github.com/pchalupa/expo-network-security-config#readme.md",
-  "main": "index.js",
+  "main": "plugin/index.js",
   "keywords": [
     "react-native",
     "expo",
     "expo-network-security-config"
   ],
   "files": [
-    "index.js"
+    "plugin/index.js"
   ],
   "scripts": {
     "lint": "eslint",
